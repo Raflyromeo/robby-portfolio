@@ -110,7 +110,6 @@ This website was designed and developed with ❤️ by:
   <a href="mailto:raflyromeonasution07@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" height="30"/>
   </a>
-  <img src="https://komarev.com/ghpvc/?username=Raflyromeo&label=PROFILE_VIEWS&color=4CC9FE&style=for-the-badge" height="30" />
 </p>
 
 > *"Thank you for trusting me to bring your digital portfolio to life, Robby. It was an absolute pleasure working on this project!"* — **Romeo**
