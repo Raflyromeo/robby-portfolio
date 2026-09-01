@@ -2,12 +2,17 @@
 
 A modern, interactive personal portfolio designed to showcase the journey, skills, and projects of **Robby Ardiansyah Hudaya**, a passionate UI/UX Designer & Web Developer.
 
-### 🔗 **Live Demo:** [https://newportfolio-robby.vercel.app/](https://newportfolio-robby.vercel.app/)
-
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+<p align="center">
+  <br/>
+  <a href="https://newportfolio-robby.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🔴_VIEW_LIVE_DEMO-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" height="40" />
+  </a>
+  <br/>
+  <br/>
+  <img src="https://img.shields.io/badge/Next-black?style=flat-square&logo=next.js&logoColor=white" alt="Next JS" />
+  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=flat-square&logo=react&logoColor=%2361DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+</p>
 
 ## ✨ Features
 
