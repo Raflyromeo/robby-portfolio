@@ -4,6 +4,7 @@ import { LanguageProvider } from "../components/LanguageProvider";
 import { cookies } from "next/headers";
 
 export const metadata = {
+  metadataBase: new URL("https://robby-portfolio.vercel.app"),
   title: "Robby Ardiansyah Hudaya — UI/UX Designer & Web Developer",
   description: "Portfolio of Robby Ardiansyah Hudaya, an Information Systems student at Gunadarma University focused on UI/UX Design, Front-End Development, and Web Development.",
   authors: [{ name: "Robby Ardiansyah Hudaya" }],
