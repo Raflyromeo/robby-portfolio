@@ -706,7 +706,7 @@ export default function Portfolio() {
           <div className="experience-bento-layout" style={{ display: 'flex', flexWrap: 'wrap', gap: '48px', marginTop: '40px', alignItems: 'stretch' }}>
             
             
-            <div className="experience-timeline" style={{ flex: '1 1 400px', display: 'flex', flexDirection: 'column', gap: '32px' }}>
+            <div className="experience-timeline" style={{ flex: '1 1 300px', display: 'flex', flexDirection: 'column', gap: '32px' }}>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
                 <h3 style={{ fontSize: '1.4rem', fontWeight: 600, color: 'var(--text)', lineHeight: 1.3, margin: 0 }}>Advanced Management Laboratory</h3>
                 <div style={{ color: 'var(--text-secondary)' }}>Universitas Gunadarma</div>
@@ -754,10 +754,16 @@ export default function Portfolio() {
             </div>
 
             
-            <div className="experience-bento-grid" style={{ flex: '1 1 400px', display: 'grid', gridTemplateColumns: '1fr 1fr', gridAutoRows: '200px', gap: '16px' }}>
-              <img src="/images/certificates/Course Instructor - Advanced Management Laboratory.jpeg" alt="Course Instructor" style={{ gridColumn: 'span 2', width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', border: '1px solid var(--line)' }} draggable={false} />
-              <img src="/images/certificates/Manlan.jpeg" alt="Manlan" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', border: '1px solid var(--line)' }} draggable={false} />
-              <img src="/images/certificates/programmer.jpeg" alt="Programmer" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', border: '1px solid var(--line)' }} draggable={false} />
+            <div className="experience-bento-grid" style={{ flex: '1 1 300px', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
+              <div style={{ gridColumn: 'span 2', height: 'clamp(200px, 40vw, 250px)' }}>
+                <img src="/images/certificates/Course Instructor - Advanced Management Laboratory.jpeg" alt="Course Instructor" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', border: '1px solid var(--line)' }} draggable={false} />
+              </div>
+              <div style={{ height: 'clamp(140px, 30vw, 200px)' }}>
+                <img src="/images/certificates/Manlan.jpeg" alt="Manlan" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', border: '1px solid var(--line)' }} draggable={false} />
+              </div>
+              <div style={{ height: 'clamp(140px, 30vw, 200px)' }}>
+                <img src="/images/certificates/programmer.jpeg" alt="Programmer" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', border: '1px solid var(--line)' }} draggable={false} />
+              </div>
             </div>
 
           </div>
