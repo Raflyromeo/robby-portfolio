@@ -21,18 +21,18 @@ export default function Work() {
     <main style={{ position: "relative" }}>
       <WorkHeader />
 
-      <section style={{ maxWidth: '1200px', margin: '0 auto', padding: '140px 40px 0', position: 'relative', zIndex: 10 }}>
+      <section className="relative z-20 mx-auto max-w-[1200px] px-5 pt-[110px] sm:px-10 sm:pt-[140px]">
         <Reveal>
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '16px' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '14px', color: 'var(--muted)', fontFamily: 'Inter, sans-serif' }}>
-              <Link href="/" style={{ color: 'var(--muted)', textDecoration: 'none', transition: 'color 0.2s ease' }} onMouseOver={(e) => e.currentTarget.style.color = 'var(--text)'} onMouseOut={(e) => e.currentTarget.style.color = 'var(--muted)'}>
+          <div className="flex flex-col-reverse items-start gap-5 sm:flex-row sm:items-center sm:justify-between">
+            <div className="flex items-center gap-2 font-['Inter',sans-serif] text-[14px] text-[var(--muted)]">
+              <Link href="/" className="text-[var(--muted)] no-underline transition-colors duration-200 hover:text-[var(--text)]">
                 Home
               </Link>
               <ChevronRight size={14} />
-              <span style={{ color: 'var(--text)', fontWeight: 500 }}>{language === 'id' ? 'Semua Karya' : 'All Work'}</span>
+              <span className="font-medium text-[var(--text)]">{language === 'id' ? 'Semua Karya' : 'All Work'}</span>
             </div>
 
-            <Link href="/" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', fontSize: '13px', fontWeight: 600, padding: '10px 20px', borderRadius: '8px', background: 'var(--surface)', border: '1px solid var(--line)', color: 'var(--text)', textDecoration: 'none', transition: 'all 0.2s ease' }} onMouseOver={(e) => { e.currentTarget.style.background = 'var(--line)'; e.currentTarget.style.transform = 'translateY(-2px)'; }} onMouseOut={(e) => { e.currentTarget.style.background = 'var(--surface)'; e.currentTarget.style.transform = 'translateY(0)'; }}>
+            <Link href="/" className="inline-flex items-center gap-2 rounded-lg border border-[var(--line)] bg-[var(--surface)] px-5 py-2.5 text-[13px] font-semibold text-[var(--text)] no-underline transition-all duration-200 hover:-translate-y-0.5 hover:bg-[var(--line)]">
               <ArrowLeft size={16} />
               {language === 'id' ? 'Kembali ke Halaman Utama' : 'Back to Home'}
             </Link>
@@ -40,7 +40,7 @@ export default function Work() {
         </Reveal>
       </section>
 
-      <div style={{ marginTop: '-40px' }}>
+      <div className="-mt-6 sm:-mt-10">
         <TechnicalArchive projects={technical} />
       </div>
 
